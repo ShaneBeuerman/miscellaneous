@@ -1,8 +1,5 @@
 package miscellaneous;
 
-import java.util.Scanner;
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class main {
@@ -130,7 +127,7 @@ public class main {
             if(i % buzz == 0){
                 number+= "buzz";
             }
-            if(number == ""){
+            if(number.equals("")){
                 number = Integer.toString(i);
             }
             System.out.println(number);
